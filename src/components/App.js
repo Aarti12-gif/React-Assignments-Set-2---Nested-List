@@ -155,7 +155,10 @@ const states = [
 ];
 
 function App() {
-  return <div id="main"></div>;
+  return <div id="main">
+  visit(states,print);
+  
+  </div>;
 }
 
 export default App;
