@@ -1,6 +1,6 @@
 import React from "react";
 import Town from "./Town";
-function City({name,town,index}){
+function City({name,towns,index}){
     const[clicked,setClicked]=React.useState(false);
     return(
         <li>
@@ -16,6 +16,7 @@ function City({name,town,index}){
           ) : null}
             
                 </li>
+    
     );
 }
 export default City;

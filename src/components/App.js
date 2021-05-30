@@ -160,9 +160,11 @@ function App() {
   <div id="main">
   <ul>
   {states.map((item)=>(
-    <State index={states.indexOf(item)}
+    <State 
+    index={states.indexOf(item)}
     name={item.name}
-    cities={item.cities}/>
+    cities={item.cities}
+    />
   ))}
   </ul>
 </div>
