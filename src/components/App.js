@@ -164,7 +164,8 @@ function App() {
     index={states.indexOf(item)}
     name={item.name}
     cities={item.cities}
-    />
+    
+     />
   ))}
   </ul>
 </div>
